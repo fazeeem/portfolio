@@ -1,0 +1,86 @@
+
+body{
+    font-family: 'Poppins', sans-serif!important;
+}
+
+.bg-customDark{
+    background: #151312!important;
+}
+
+.bg-customDark p{
+    color: #998f8f;
+}
+
+
+h1.f-heading{
+    font-size: 4em;
+    line-height:60px;
+}
+
+.tools h2, .experiences h2{
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.text-grey{
+    color: #363334;
+}
+
+.custom-navbar {
+    background-color: #1a1a1a; /* Navbar background */
+    border-radius: 20px; /* Rounded edges */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around; /* Even spacing */
+    align-items: center;
+    width: 90%; /* Ensure responsiveness */
+    max-width: 400px; /* Restrict max size */
+}
+
+.custom-navbar a {
+    color: #fff; /* Icon color */
+    font-size: 1.5rem; /* Icon size */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.custom-navbar a:hover {
+    color: #f7b914; /* Highlight on hover */
+}
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools:hover, .experiences:hover{
+    background-color: rgba(255, 255, 255, 0.03);
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+.download-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999; /* Ensures the button is on top of other elements */
+  }
+
+@media (prefers-color-scheme: dark) {
+    #logo-light {
+        content: url('img/pawprint-light.png');
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    h1.f-heading{
+        font-size: 3.5em;
+        line-height:45px;
+    }
+}
+  
+/* Larger mobile devices */
+@media (max-width: 767px) {
+  /* Styles for larger mobile */
+}
